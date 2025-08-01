@@ -1,4 +1,5 @@
 import React from "react";
+import hero from "../assets/hero.png";
 
 function Hero() {
   return (
@@ -22,7 +23,22 @@ function Hero() {
             >
               Shop Now
             </a>
+            <a
+              href="/offers"
+              className="px-6 py-3 border border-pink-500 text-pink-600 text-sm font-semibold
+              rounded-lg hover:bg-pink-200 transition"
+            >
+              Shop Now
+            </a>
           </div>
+        </div>
+
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <img
+            src={hero}
+            alt="Hero Image"
+            className="w-3/4 lg:w-full max-w-md mx-auto rounded-xl shadow-lg"
+          />
         </div>
       </div>
     </section>
