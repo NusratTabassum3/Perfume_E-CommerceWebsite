@@ -36,7 +36,7 @@ function Offers() {
   ];
 
   return (
-    <section id="offers" className="container scroll-mt-20 mx-auto px-4 py-12">
+    <section id="offer" className="container scroll-mt-20 mx-auto px-4 py-12">
       <h2 className="text-3xl font-bold text-center mb-2 text-amber-900">
         Special Offers
       </h2>
