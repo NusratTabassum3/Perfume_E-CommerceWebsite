@@ -6,6 +6,7 @@ import Categories from "./components/Categories";
 import Offers from "./components/Offers";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Offers />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
